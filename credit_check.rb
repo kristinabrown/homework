@@ -6,6 +6,8 @@ def credit_check(card_number)
   odds = []
   others = []
 
+  number_array.partition do
+
   number_array.each_with_index do |digit, index|
     if index.odd?
       odds.push(digit)

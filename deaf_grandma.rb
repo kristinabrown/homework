@@ -1,7 +1,7 @@
 
 class Grandma
 
-    def  shouted?(string)
+    def shouted?(string)
       string == string.upcase
     end
 
@@ -22,11 +22,11 @@ class Grandma
           puts "WHAT?"
         elsif saying_goodbye(response)
             goodbye += 1
-             if goodbye >= 2
-               puts "LATER, SKATER!"
-             else
-               puts "LEAVING SO SOON?"
-             end
+              if goodbye >= 2 
+              puts "LATER, SKATER!"
+            else
+              puts "LEAVING SO SOON?"
+            end
         elsif shouted?(response)
           puts "NO, NOT SINCE 1946!"
         else
